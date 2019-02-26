@@ -10,3 +10,7 @@ var holiday = 'Independence Day';
 function happyHolidayTo () {
   return `Happy ${holiday}, ${name}!`;
 }
+var days = '';
+function holidayCountdown() {
+  return `It's ${days} until ${holiday}!`;
+}
