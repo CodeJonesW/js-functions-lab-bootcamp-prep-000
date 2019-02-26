@@ -6,8 +6,8 @@ var name = 'you'
 function happyHolidaysTo () {
   return `Happy holidays, ${name}!`;
 }
-var holiday = 'Independence Day';
 function happyHolidayTo () {
+  var holiday = 'Independence Day';
   return `Happy ${holiday}, ${name}!`;
 }
 var days = '20';
